@@ -1,0 +1,4 @@
+data/raw/*.fastq.gz
+data/trimmed/*.fastq.gz
+.Rhistory
+.RData
