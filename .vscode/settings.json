@@ -1,0 +1,18 @@
+{
+  // Tell VS Code where R lives and how to launch it
+  "r.rterm.windows": "C:\\Program Files\\R\\R-4.5.1\\bin\\R.exe",
+  "r.rterm.option": ["--no-save", "--no-restore"],
+
+  // Define terminal profiles so “R” shows up as an option
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell"
+    },
+    "R": {
+      "path": "C:\\Program Files\\R\\R-4.5.1\\bin\\R.exe",
+      "args": ["--no-save", "--no-restore"]
+    }
+  },
+  // Make “R” the default new terminal
+  "terminal.integrated.defaultProfile.windows": "R"
+}
